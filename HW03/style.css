@@ -1,15 +1,14 @@
-
 @font-face {
 	font-family: 'Gillroy-Bold';
 	src: url('./font/Gilroy-Bold.woff2');
 }
 @font-face {
-	font-family: 'Gillroy-Bold';
-	src: url('./font/Gilroy-Bold.woff2');
+	font-family: 'Gilroy-Medium';
+	src: url('./font/Gilroy-Medium.woff2');
 }
 @font-face {
-	font-family: 'Gillroy-Bold';
-	src: url('./font/Gilroy-Bold.woff2');
+	font-family: 'Gilroy-SemiBold';
+	src: url('./font/Gilroy-Semibold.woff2');
 }
 
 * {
@@ -21,55 +20,18 @@
 
 body {
 	scroll-behavior: smooth;
-	background: #FFFFFF;
-	font-family: 'Gilroy-Medium';
-	/* font-family: 'Gillroy-Bold'; */
-	color: #888888;
-	font-weight: 600;
+	color: #000;
+	font-family: Gilroy-Medium;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 img {
 	max-width: 100%;
 	display: block;
 }
-
-.navigation_container{
-	width: 533px;
-	
-}
-
-
-.font1 {
-	font-family: Gilroy-Bold;
-	font-size: 60px;
-	line-height: 70px;
-	letter-spacing: 0em;
-	text-align: left;
-	background: #000000;
-	
-}
-
-
-.font2 {
-	font-family: Gilroy-Medium;
-	font-size: 20px;
-	line-height: 23px;
-	letter-spacing: 0em;
-	text-align: left;
-	background: #888888;
-
-}
-
-.font3 {
-	font-family: Gilroy-Bold;
-	font-size: 15px;
-	line-height: 18px;
-	letter-spacing: 0em;
-	text-align: left;
-	background: #AAAAAA;
-	
-}
-
 
 .container {
 	max-width: 1170px;
@@ -84,47 +46,63 @@ img {
 	padding: 39px 0;
 }
 
-.navigation__link {
+.navigation__link2 {
+	color: #F25822;
 	font-family: Gilroy-SemiBold;
 	font-size: 14px;
-	line-height: 16px;
-	letter-spacing: 0em;
-	text-align: left;
-	
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.navigation__link {
+	color: #000;
 	font-family: Gilroy-Medium;
 	font-size: 14px;
-	line-height: 16px;
-	letter-spacing: 0em;
-	text-align: left;
-	
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
+
 .main {
-	margin-bottom: 162px;
-}
-.footer{
-	margin-bottom: 162px;
+	margin-bottom: 260px;
 }
 
 .content__left-side {
-	max-width: 522px;
+	max-width: 604px;
 }
 
+.content__left-side h2 {
+	color: #000;
+	font-family: Gillroy-Bold;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
 
+.content__left-side h1 {
+	color: #888;
+	font-family: Gilroy-Medium;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
 
+.content__left-side p {
+	max-width: 558px;
+	font-size: 18px;
+	line-height: 160%;
+	opacity: 0.7;
+	margin-bottom: 50px;
+}
 
 .content__btn-list {
 }
 
 .btn {
-	color: #fff;
-	font-family: 'Open Sans';
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 27px;
-	border-radius: 5px;
-	background: #3a68b8;
-	padding: 15px 30px;
-	border: none;
-	cursor: pointer;
+	width: 140px;
+	height: 50px;
+	flex-shrink: 0;
 }
