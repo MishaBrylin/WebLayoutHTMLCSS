@@ -39,7 +39,7 @@ img {
 }
 
 .header {
-	margin-bottom: 84px;
+	margin-bottom: 82px;
 }
 
 .navigation {
@@ -65,11 +65,11 @@ img {
 
 
 .main {
-	margin-bottom: 260px;
+	margin-bottom: 80px;
 }
 
 .content__left-side {
-	max-width: 604px;
+	max-width: 590px;
 }
 
 .content__left-side h2 {
@@ -105,4 +105,8 @@ img {
 	width: 140px;
 	height: 50px;
 	flex-shrink: 0;
+	border-radius: 50px;
+	background: #F25822;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+	cursor: pointer;
 }
